@@ -1,4 +1,4 @@
-HAT PROJECT
+HAT PROJECT for KALI LINUX
 
 *Clone - git clone https://github.com/BLACKRATTX/HAT-Metasploit-Reverse-Engineer-Tools
 
